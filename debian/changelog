@@ -1,0 +1,5 @@
+xecho (1.2.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Jan Unterbrink <jan.unterbrink@subpath.de>  Mon, 22 Oct 2018 00:55:08 +0200

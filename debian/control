@@ -1,0 +1,18 @@
+Source: xecho
+Section: x11
+Priority: optional
+Maintainer: Jan Unterbrink <jan.unterbrink@subapth.de>
+Build-Depends: debhelper (>=11), libxft-dev, libx11-dev, libxext-dev, libfreetype6-dev
+Standards-Version: 4.1.3
+Homepage: https://github.com/cbdevnet/xecho
+VCS-Git: https://github.com/subapthdev/xecho.git -b debian
+Vcs-Browser: https://github.com/subpathdev/xecho/commits/debian
+
+Package: xecho
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: It offers an easey way to display text via X11 window.
+ xecho is an easy way to display text via an X Window.                                                            
+ It takes input from the commandline or via stdin and                                                             
+ tries to render it at the largest font size the window                                                           
+ permits.
